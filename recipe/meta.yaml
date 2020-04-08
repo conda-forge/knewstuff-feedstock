@@ -1,5 +1,5 @@
 {% set name = "knewstuff" %}
-{% set version = "5.67.0" %}
+{% set version = "5.68.0" %}
 {% set major_minor = ".".join(version.split(".")[:2]) %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://download.kde.org/stable/frameworks/{{ major_minor }}/knewstuff-{{ version }}.tar.xz
-  sha256: 2fadaf5bba791d8b009ab187349175cc6a2e37b968167a3a43f2174cd5e8d10c
+  sha256: f7c13b133f8b87ceece2d33d3f69215912b3b8c1dbb92ac39a1a6a0a42b7c93a
 
 build:
   number: 0
@@ -56,7 +56,7 @@ about:
   license: LGPL-v2.1-or-later
   license_family: GPL
   license_file: COPYING.LIB
-  summary: 'Framework for downloading and sharing additional application data'
+  summary: Framework for downloading and sharing additional application data
   description: |
     The KNewStuff library implements collaborative data sharing for applications.
     It uses libattica to support the Open Collaboration Services specification.
