@@ -5,7 +5,7 @@ Home: https://api.kde.org/frameworks/knewstuff/html/index.html
 
 Package license: LGPL-v2.1-or-later
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Framework for downloading and sharing additional application data
 
