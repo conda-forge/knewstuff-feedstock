@@ -44,6 +44,7 @@ requirements:
     - kcompletion >={{ major_minor }}
     - kiconthemes >={{ major_minor }}
     - kitemviews >={{ major_minor }}
+    - kpackage >={{ major_minor }}
     - ktextwidgets >={{ major_minor }}
     - kwidgetsaddons >={{ major_minor }}
 
