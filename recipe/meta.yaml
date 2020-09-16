@@ -1,5 +1,5 @@
 {% set name = "knewstuff" %}
-{% set version = "5.73.0" %}
+{% set version = "5.74.0" %}
 {% set major_minor = ".".join(version.split(".")[:2]) %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://download.kde.org/stable/frameworks/{{ major_minor }}/knewstuff-{{ version }}.tar.xz
-  sha256: 7669e62973f7e228975a07f15bb1c7f716edd81ce82d5f578a80b1f501abda1e
+  sha256: 638ba6cee3091a94a0ef60977b6e22c7b58267ea6fd1bc17d3e7ac47bd9a3d27
 
 build:
   number: 0
