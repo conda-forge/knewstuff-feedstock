@@ -3,11 +3,13 @@ About knewstuff
 
 Home: https://api.kde.org/frameworks/knewstuff/html/index.html
 
-Package license: LGPL-v2.1-or-later
+Package license: GPL-2.0-only AND GPL-3.0-only AND LGPL-2.0-only AND LGPL-2.0-or-later AND LGPL-2.1-only AND LGPL-2.1-or-later AND LGPL-3.0-only AND LicenseRef-KDE-Accepted-GPL AND LicenseRef-KDE-Accepted-LGPL
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/knewstuff-feedstock/blob/master/LICENSE.txt)
 
 Summary: Framework for downloading and sharing additional application data
+
+Development: https://cgit.kde.org/knewstuff.git/tree
 
 The KNewStuff library implements collaborative data sharing for applications.
 It uses libattica to support the Open Collaboration Services specification.
